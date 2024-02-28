@@ -1,4 +1,3 @@
-const domain = "http://localhost:3000"
 export function generateLinks(dirContents : string[],path:string){
     path = path.substring(1)
     let htmlString = `<ul>`;
