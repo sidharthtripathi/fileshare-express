@@ -1,5 +1,4 @@
 import express from 'express'
-import cookieParser from 'cookie-parser'
 import fs from 'fs/promises'
 import { createReadStream } from 'fs'
 import { generateLinks } from './utils'
